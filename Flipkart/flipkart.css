@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f2f3f5;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9cb4da;
+    color: white;
+    padding: 10px 20px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+input{
+    width: 600px;
+    padding: 8px;
+   margin-right: 0px;
+   font-size: 18px;
+}
+.navbar a{
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    display: fixed;
+    align-items: flex-start;
+    padding: 5px;
+    font-size: 20px;
+}
+.Categories{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(175, 214, 230);
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.Category{
+    margin: 0px 20px;
+    font-weight: 540;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    position: relative;
+}
+.content{
+    margin: 0;
+    padding: 10px 0px;
+    display: flex;
+    scroll-behavior: smooth;
+}
+button{
+    background-color: #d1bd9d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 0px;
+}
+.Products{
+    display: flex;
+    justify-content: none;
+    background-color: white;
+    padding: 10px 0;
+    margin-top: 10px;
+    font: 18px;
+}
+.Products .headings h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Product{
+   margin-bottom: 10px;
+   margin-top: 70px;
+   padding: 0px;
+   transition: all .35s ease;
+   font-size: 19px;
+}
+.Product img{
+    margin-bottom: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 2px;
+    transition: all .35s ease;
+    gap: 5rem;
+    width:15vw;
+    height:35vh;
+    padding: 20px;
+    margin-right: 0px;
+}
+.Product:hover{
+    transform:translateY(-5px);
+}
+.Products .content{
+    padding: 0px;
+}
+.items{
+    display: flex;
+    justify-content: none;
+    background-color: white;
+    padding: 10px 0;
+    margin-top: 10px;
+    font-size: 19px;
+}
+.items .headings h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img{
+    margin-bottom: 10px;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 2px;
+    transition: all .35s ease;
+    gap: 5rem;
+    width:15vw;
+    height:35vh;
+    padding: 20px;
+    margin-right: 0px;
+}
+.item:hover{
+    transform:translateY(-5px);
+}
+.items .container{
+    padding: 10px;
+}
+.fashion{
+    display:flex;
+}
+.content img{ 
+    width:96%;
+}
